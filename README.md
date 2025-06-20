@@ -1,10 +1,10 @@
 # Kindtech Organization Website
 
-A modern, responsive static website for the Kindtech GitHub organization, built with HTML, CSS, and JavaScript.
+A modern, responsive static website for the Kindtech GitHub organization, built with HTML, CSS, and JavaScript. Our mission is to build open source technology for the charity sector, bridging the tech divide in data and AI usage.
 
 ## 🚀 Features
 
-- **Modern Design**: Clean, professional design with gradient backgrounds and smooth animations
+- **Modern Design**: Clean, professional design with warm orange gradient backgrounds and smooth animations
 - **Responsive Layout**: Fully responsive design that works on all devices
 - **Smooth Scrolling**: Navigation links with smooth scroll behavior
 - **Interactive Elements**: Hover effects and animations for better user experience
@@ -23,27 +23,36 @@ KindTechUK.github.io/
 ## 🎨 Customization
 
 ### Colors
-The website uses a beautiful gradient color scheme. You can customize the colors by modifying these CSS variables in the `<style>` section:
+The website uses a warm orange gradient color scheme. You can customize the colors by modifying these CSS variables in the `<style>` section:
 
-- **Primary Gradient**: `linear-gradient(135deg, #667eea 0%, #764ba2 100%)`
-- **Accent Colors**: `#667eea` and `#764ba2`
+- **Primary Gradient**: `linear-gradient(135deg, #ff6b35 0%, #f7931e 100%)`
+- **Accent Colors**: `#ff6b35` and `#f7931e`
 - **Text Colors**: `#1f2937` (dark) and `#6b7280` (gray)
+- **Alternating Sections**: `#fef7f0` (warm cream)
 
 ### Content Sections
 
-1. **Hero Section**: Main landing area with tagline and call-to-action
-2. **About Section**: Organization mission and values
-3. **Features Section**: Six key areas of focus with icons
-4. **Contact Section**: Social media links and contact information
+1. **Hero Section**: Main landing area with tagline "Building Technology with Kindness"
+2. **About Section**: Organization mission focused on bridging the tech divide in the charity sector
+3. **Projects Section**: Showcase of current open source projects
+4. **What We Do Section**: Three core focus areas (Open Source, Ethical Considerations, Real-World Impact)
+5. **Contact Section**: GitHub and email contact information
 
-### Social Media Links
-Update the social media links in the contact section:
-```html
-<a href="https://github.com/KindTechUK" class="social-link" title="GitHub">📦</a>
-<a href="YOUR_TWITTER_URL" class="social-link" title="Twitter">🐦</a>
-<a href="YOUR_LINKEDIN_URL" class="social-link" title="LinkedIn">💼</a>
-<a href="YOUR_DISCORD_URL" class="social-link" title="Discord">💬</a>
-```
+### Projects Featured
+
+#### Awesome Charity AI Use Cases
+- **Repository**: [https://github.com/KindTechUK/awesome-charity-ai-use-cases](https://github.com/KindTechUK/awesome-charity-ai-use-cases)
+- **Description**: A curated list of case studies on how the charity sector is utilizing emerging AI technology like GenAI
+- **Icon**: 🤖
+
+#### Open Source Data Platform
+- **Repository**: [https://github.com/KindTechUK/](https://github.com/KindTechUK/)
+- **Description**: An open-source data platform designed to help charities and nonprofits better manage, analyze, and visualize their data
+- **Icon**: 📊
+
+### Contact Information
+- **GitHub**: [https://github.com/KindTechUK](https://github.com/KindTechUK)
+- **Email**: billyzhaoyh@gmail.com
 
 ## 🛠️ Technologies Used
 
@@ -83,6 +92,19 @@ Since this is a GitHub Pages repository, the website will automatically deploy w
 - Alt text for icons (using emoji descriptions)
 - Keyboard navigation support
 
+## 🎨 Design Philosophy
+
+### Mission Statement
+Kindtech addresses the widening tech divide in the charity sector by:
+- Building open source technology specifically for charitable organizations
+- Applying ethical considerations to cutting-edge AI technology
+- Ensuring real-world impact through close partnership with charity partners
+
+### Core Values
+1. **Open Source**: Building in the open to create a vibrant community and prevent project abandonment
+2. **Ethical Considerations**: Careful design and responsible AI development
+3. **Real-World Impact**: Hand-holding charity partners to ensure successful implementation
+
 ## 🔧 Customization Tips
 
 1. **Update Content**: Modify the text content in each section to match your organization's specific mission and values
@@ -90,6 +112,7 @@ Since this is a GitHub Pages repository, the website will automatically deploy w
 3. **Add Sections**: You can easily add new sections by following the existing pattern
 4. **Modify Colors**: Update the CSS custom properties to match your brand colors
 5. **Add Analytics**: Include Google Analytics or other tracking scripts in the head section
+6. **Add Projects**: Follow the existing project card pattern to add new projects
 
 ## 📄 License
 
@@ -97,7 +120,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🤝 Contributing
 
-Feel free to submit issues and enhancement requests!
+Feel free to submit issues and enhancement requests! We welcome contributions to help improve the website and better serve the charity sector.
 
 ---
 
